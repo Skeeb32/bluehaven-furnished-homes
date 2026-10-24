@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="500" viewBox="0 0 1440 500" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Bluehaven furnished homes</title>
+  <desc id="desc">A twilight city skyline and welcoming apartment illustration for the Bluehaven frontend demo.</desc>
+  <defs>
+    <linearGradient id="sky" x1="180" y1="0" x2="1330" y2="510" gradientUnits="userSpaceOnUse"><stop stop-color="#E6E1F6"/><stop offset=".54" stop-color="#F2EFF5"/><stop offset="1" stop-color="#E8F0E8"/></linearGradient>
+    <linearGradient id="building" x1="1070" y1="126" x2="1317" y2="467" gradientUnits="userSpaceOnUse"><stop stop-color="#FAF8F4"/><stop offset="1" stop-color="#D8D7E5"/></linearGradient>
+    <linearGradient id="window" x1="1119" y1="205" x2="1262" y2="367" gradientUnits="userSpaceOnUse"><stop stop-color="#CBD6E9"/><stop offset="1" stop-color="#E8D8C8"/></linearGradient>
+    <filter id="shadow" x="973" y="86" width="394" height="428" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="16"/></filter>
+  </defs>
+  <rect width="1440" height="500" rx="30" fill="url(#sky)"/>
+  <circle cx="1152" cy="91" r="36" fill="#FFFDF8" fill-opacity=".76"/>
+  <path d="M0 386c137-42 247-51 385-22 151 31 260 20 397-14 144-36 254-17 365 9 109 26 196 26 293-10v151H0V386Z" fill="#D5DFD2" fill-opacity=".64"/>
+  <path d="M0 422c160-43 296-40 444-10 145 29 260 14 410-16 134-27 244-11 343 15 91 24 159 23 243-5v94H0v-78Z" fill="#BECDBF" fill-opacity=".48"/>
+  <g fill="#8D91AA" fill-opacity=".46">
+    <path d="M883 222h57v218h-57zM948 183h44v257h-44zM1000 238h42v202h-42zM1311 203h51v237h-51zM1368 255h45v185h-45z"/>
+    <path d="M894 242h11v15h-11zm23 0h11v15h-11zm-23 31h11v15h-11zm23 0h11v15h-11zm68-67h10v16h-10zm20 0h10v16h-10zm-20 36h10v16h-10zm20 0h10v16h-10zm-20 37h10v16h-10zm20 0h10v16h-10zm79-28h11v15h-11zm24 0h11v15h-11zm-24 32h11v15h-11zm24 0h11v15h-11z" fill="#F7F1E5"/>
+  </g>
+  <g filter="url(#shadow)" opacity=".22"><rect x="1005" y="117" width="320" height="370" rx="18" fill="#30334B"/></g>
+  <rect x="1019" y="103" width="302" height="384" rx="18" fill="url(#building)" stroke="#FFF" stroke-width="4"/>
+  <path d="M1050 103h240v30h-240z" fill="#C8C6D8"/>
+  <rect x="1060" y="156" width="220" height="202" rx="4" fill="url(#window)" stroke="#FFF" stroke-width="9"/>
+  <path d="M1168 160v194m-105-95h212" stroke="#FFF" stroke-width="8"/>
+  <path d="M1068 346h204v100h-204z" fill="#D6C7B8"/>
+  <rect x="1086" y="364" width="169" height="50" rx="23" fill="#F7F4EF"/>
+  <rect x="1095" y="417" width="150" height="11" rx="5.5" fill="#868399"/>
+  <rect x="1111" y="346" width="8" height="86" rx="4" fill="#595B70"/><rect x="1232" y="346" width="8" height="86" rx="4" fill="#595B70"/>
+  <path d="M1071 349c-13-32 4-56 8-78 20 20 23 46 12 78m179 0c12-29-2-51-6-74-19 18-21 42-11 74" fill="#849B81"/>
+  <path d="M1081 349c-22-17-33-37-30-61 21 7 35 25 38 53m167 8c21-17 32-38 28-61-21 8-34 26-36 54" fill="#718A72"/>
+  <rect x="1067" y="348" width="26" height="8" rx="4" fill="#B28F77"/><rect x="1238" y="348" width="25" height="8" rx="4" fill="#B28F77"/>
+  <text x="84" y="105" fill="#6E6A83" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" letter-spacing="4">A FURNISHED-HOME DISCOVERY DEMO</text>
+  <text x="80" y="205" fill="#30334B" font-family="Arial,Helvetica,sans-serif" font-size="72" font-weight="700" letter-spacing="-3">Find a place</text>
+  <text x="80" y="286" fill="#30334B" font-family="Arial,Helvetica,sans-serif" font-size="72" font-weight="700" letter-spacing="-3">to feel at home.</text>
+  <text x="85" y="341" fill="#55586C" font-family="Arial,Helvetica,sans-serif" font-size="23">Thoughtfully furnished stays, made easy to explore.</text>
+  <rect x="85" y="388" width="190" height="54" rx="27" fill="#30334B"/>
+  <text x="116" y="422" fill="#FFF" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700">EXPLORE HOMES</text>
+  <rect x="287" y="388" width="159" height="54" rx="27" fill="#FFFFFF" fill-opacity=".58" stroke="#FFF" stroke-width="2"/>
+  <text x="317" y="422" fill="#30334B" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700">30+ NIGHT STAYS</text>
+  <rect x="84" y="40" width="33" height="36" rx="5" stroke="#30334B" stroke-width="2"/>
+  <path d="m91 58 9-10 10 10v11H91V58Z" stroke="#30334B" stroke-width="2" stroke-linejoin="round"/>
+  <text x="133" y="67" fill="#30334B" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" letter-spacing="4">BLUEHAVEN</text>
+</svg>
