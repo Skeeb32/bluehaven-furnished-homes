@@ -50,6 +50,20 @@ This repository is a frontend-first product demo. It uses realistic, typed mock 
 - **Login and sign-up UI** — explore the designed screens; authentication is intentionally unavailable.
 - **Responsive layout** — layouts adapt for mobile, tablet, and desktop, with keyboard focus states and reduced-motion support.
 
+### A quick tour
+
+Follow the main discovery path from the homepage to matching homes and a property's details:
+
+<p align="center">
+  <img src="./assets/bluehaven-walkthrough.gif" alt="Animated walkthrough from the Bluehaven homepage to Los Angeles search results and a property detail page" width="100%" />
+</p>
+
+| Homepage | Search results | Property details |
+|:---:|:---:|:---:|
+| <img src="./assets/screenshots/home.png" alt="Bluehaven homepage with destination search and furnished-home collage" width="100%" /> | <img src="./assets/screenshots/search.png" alt="Los Angeles search results showing six illustrative furnished homes" width="100%" /> | <img src="./assets/screenshots/property.png" alt="Property details with an interior gallery and illustrative monthly price" width="100%" /> |
+
+*Captured from the running app at desktop width. Home imagery, prices, and availability are illustrative demo content.*
+
 ### Routes
 
 | Route | Page |
