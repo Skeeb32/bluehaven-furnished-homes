@@ -1,0 +1,10 @@
+import React from 'react';
+import {createRoot} from 'react-dom/client';
+import {BrowserRouter,Routes,Route} from 'react-router-dom';
+import {Header,Footer,SavedProvider} from './components/shared';
+import {Home,Destinations,City,About,NotFound} from './pages/Marketing';
+import {SearchPage} from './pages/Search';
+import {PropertyPage} from './pages/Property';
+import {Auth,Contact} from './pages/Forms';
+import './styles/global.css';
+createRoot(document.getElementById('root')!).render(<React.StrictMode><BrowserRouter><SavedProvider><a className="skip-link" href="#main-content">Skip to content</a><Header/><div id="main-content"><Routes><Route path="/" element={<Home/>}/><Route path="/destinations" element={<Destinations/>}/><Route path="/furnished-apartments-usa" element={<Destinations/>}/><Route path="/furnished-apartments-:city-usa" element={<City/>}/><Route path="/furnished-apartments-chicago-usa" element={<City/>}/><Route path="/furnished-apartments-new-york-usa" element={<City/>}/><Route path="/furnished-apartments-los-angeles-usa" element={<City/>}/><Route path="/furnished-apartments-boston-usa" element={<City/>}/><Route path="/search" element={<SearchPage/>}/><Route path="/saved" element={<SearchPage savedOnly/>}/><Route path="/properties/:id" element={<PropertyPage/>}/><Route path="/about" element={<About/>}/><Route path="/corporate-housing" element={<About corporate/>}/><Route path="/contact" element={<Contact/>}/><Route path="/login" element={<Auth key="login"/>}/><Route path="/signup" element={<Auth key="signup" signup/>}/><Route path="*" element={<NotFound/>}/></Routes></div><Footer/></SavedProvider></BrowserRouter></React.StrictMode>);
