@@ -16,7 +16,7 @@
     <img src="https://img.shields.io/badge/Tests-4_passing-2E8B57?logo=npm&logoColor=white" alt="Four search and date tests" />
     <img src="https://img.shields.io/badge/Inventory-24_mock_homes-777" alt="24 mock homes" />
   </p>
-  <p><em>Independent frontend demo · Bluehaven is not affiliated with Blueground.</em></p>
+  <p><em>Independent frontend demo · Bluehaven is a demo site.</em></p>
 </div>
 
 ---
